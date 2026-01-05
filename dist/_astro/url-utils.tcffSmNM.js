@@ -1,1 +1,1 @@
-import"./zh_TW.DA4cTuyj.js";function i(o,e){const n=o.replace(/^\/|\/$/g,"").toLowerCase(),r=e.replace(/^\/|\/$/g,"").toLowerCase();return n===r}function t(...o){return o.join("/").replace(/\/+/g,"/")}function c(o){return t("","/blog/",o)}export{i as p,c as u};
+import"./zh_TW.DA4cTuyj.js";function i(e,r){return e.replace(/^\/|\/$/g,"").toLowerCase()===r.replace(/^\/|\/$/g,"").toLowerCase()}function t(...e){return e.join("/").replace(/\/+/g,"/")}function c(e){return t("","/blog/",e)}export{i as p,c as u};
