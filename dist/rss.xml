@@ -1,4 +1,142 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>GYoung</title><description>Rust Lang</description><link>https://younghakim7.github.io/</link><language>en</language><item><title>260106_traits01</title><link>https://younghakim7.github.io/posts/260106_traits01/</link><guid isPermaLink="true">https://younghakim7.github.io/posts/260106_traits01/</guid><description>trait basic 01</description><pubDate>Tue, 06 Jan 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;link&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>GYoung</title><description>Rust Lang</description><link>https://younghakim7.github.io/</link><language>en</language><item><title>260107_traits03_debug_display</title><link>https://younghakim7.github.io/posts/260107_traits03_debug_display/</link><guid isPermaLink="true">https://younghakim7.github.io/posts/260107_traits03_debug_display/</guid><description>rust std Traits(Debug, Display)</description><pubDate>Wed, 07 Jan 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;&lt;code&gt;Debug&lt;/code&gt; 구현하기&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;derive macro를 써서 손 쉽게 구현&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;#[derive(Debug)]
+struct Young {
+    data: String,
+}
+
+fn main() {
+    let my_str = Young {
+        data: &quot;test&quot;.to_string(),
+    };
+    println!(&quot;Debug {:?}&quot;, my_str);
+}  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;복잡한 타입일수록 내가 구현해줘야한다.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://doc.rust-lang.org/stable/std/fmt/trait.Debug.html&quot;&gt;Debug traits활용&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;use std::fmt;
+
+struct Young {
+    data: String,
+}
+
+impl fmt::Debug for Young {
+    fn fmt(&amp;amp;self, f: &amp;amp;mut fmt::Formatter&amp;lt;&apos;_&amp;gt;) -&amp;gt; fmt::Result {
+        write!(f, &quot;{}&quot;, self.data)
+    }
+}
+
+fn main() {
+    let my_str = Young {
+        data: &quot;test&quot;.to_string(),
+    };
+    println!(&quot;Debug {:?}&quot;, my_str);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1&gt;Debug과 Display 구현은 똑같다.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;{:?}&lt;/code&gt; Debug&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{}&lt;/code&gt; Display&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded></item><item><title>260107_traits04_clone_copy</title><link>https://younghakim7.github.io/posts/260107_traits04_clone_copy/</link><guid isPermaLink="true">https://younghakim7.github.io/posts/260107_traits04_clone_copy/</guid><description>Clone, Copy Traits</description><pubDate>Wed, 07 Jan 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;&lt;code&gt;Clone&lt;/code&gt; 구현하기&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;derive macro를 써서 손 쉽게 구현&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;error code&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OwnerShip(오너쉽) 위반으로 실행 되지 않는다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;struct Young {
+    data: String,
+}
+
+fn main() {
+    let my_data = Young {
+        data: &quot;test&quot;.to_string(),
+    };
+
+    let my_data_clone = my_data;
+
+    println!(&quot;my_data : {:?}&quot;, my_data);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;cargo r&lt;/code&gt;을 하게 되면 러스트가 Clone을 구현하라고 에러메세지를 알려준다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;consider implementing `Clone` for this type
+...
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;복잡한 타입일수록 내가 구현해줘야한다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://doc.rust-lang.org/stable/std/clone/trait.Clone.html&quot;&gt;Clone traits활용&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;derive macro를 써서 날로 먹어도 되고&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;#[derive(Debug, Clone)]
+struct Young {
+    data: String,
+}
+
+fn main() {
+    let my_data = Young {
+        data: &quot;test&quot;.to_string(),
+    };
+
+    let my_data_clone = my_data.clone();
+
+    println!(&quot;my_data : {:?}&quot;, my_data);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Clone&lt;/code&gt; 을 구현해 보자
+&lt;ul&gt;
+&lt;li&gt;코드가 복잡할 수록 내가 구현 할줄 알아야한다.&lt;/li&gt;
+&lt;li&gt;Rust 는 Zero Cost Abstraction이라는 것만 기억하면된다.&lt;/li&gt;
+&lt;li&gt;등가교환이다. 꽁짜는 없다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;#[derive(Debug)]
+struct Young {
+    data: String,
+}
+
+impl Clone for Young {
+    fn clone(&amp;amp;self) -&amp;gt; Self {
+        Self {
+            data: self.data.clone(),
+        }
+    }
+}
+
+fn main() {
+    let my_data = Young {
+        data: &quot;test&quot;.to_string(),
+    };
+
+    let my_data_clone = my_data.clone();
+
+    println!(&quot;my_data : {:?}&quot;, my_data);
+}
+&lt;/code&gt;&lt;/pre&gt;
+</content:encoded></item><item><title>260106_traits01</title><link>https://younghakim7.github.io/posts/260106_traits01/</link><guid isPermaLink="true">https://younghakim7.github.io/posts/260106_traits01/</guid><description>trait basic 01</description><pubDate>Tue, 06 Jan 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;link&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#traits-summary&quot;&gt;Traits Summary(C++과 러스트 비교해서 설명해줌 굿.&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#traits-and-trait-objects---more-than-just-interfaces---rust-community-stuttgart--max-bruckner&quot;&gt;이게 젤 좋다. 잘정리됨Traits and trait objects - more than just interfaces - Rust Community Stuttgart | Max Bruckner&lt;/a&gt;
@@ -26,7 +164,7 @@
 &lt;/ul&gt;
 &lt;p&gt;&amp;lt;hr&amp;gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;./990_impl_Trait_VS_dyn_Trait&quot;&gt;impl Trait VS. dyn Trait비교설명&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#dyn-trait-vs-impl-trait&quot;&gt;impl Trait VS. dyn Trait비교설명&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&amp;lt;hr&amp;gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -1318,6 +1456,92 @@ std::thread::spawn(|| println!(&quot;{}&quot;, rc));
 &lt;h1&gt;C++ vs Rust - Impl vs Dyn - Arm vs x86 | Sonia Kolasinska&lt;a href=&quot;#link&quot;&gt;|🔝|&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;https://youtu.be/q5jpDh6INKQ?si=KhM9fgRSB9zK9YXo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;lt;hr /&amp;gt;&lt;/p&gt;
+&lt;h1&gt;&lt;code&gt;dyn Trait&lt;/code&gt; vs &lt;code&gt;impl Trait&lt;/code&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;이 글이 젤 맘에 듬&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;https://varkor.github.io/blog/2018/07/03/existential-types-in-rust.html&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;https://internals.rust-lang.org/t/what-is-the-difference-between-impl-trait-and-dyn-trait/8823/13&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;em&amp;gt;&lt;code&gt;dyn Trait&lt;/code&gt; is a concert type&amp;lt;/em&amp;gt;,
+&lt;ul&gt;
+&lt;li&gt;and can be used in any places that you need a concert type (However, it is unsized, and in many places there is an implicit Sized bound, so not quite everywhere). Under the hook, it contains a &lt;code&gt;vtable of a type implements Trait&lt;/code&gt;, and something that let the compiler refer to the type underneath.
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;dyn Trait&lt;/code&gt;은 콘서트 유형으로 콘서트 유형이 필요한 모든 곳에서 사용할 수 있습니다(그러나 크기가 크지 않고 많은 곳에서 암묵적인 크기 제한이 있으므로 모든 곳에서 사용할 수는 없습니다). 후크 아래에는 &lt;code&gt;Trait&lt;/code&gt;을 구현하는 유형의 &lt;code&gt;vtable&lt;/code&gt;이 포함되어 있으며, 컴파일러가 그 아래 유형을 참조할 수 있는 기능이 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;lt;em&amp;gt;&lt;code&gt;impl Trait&lt;/code&gt; is an anonymous type.&amp;lt;/em&amp;gt;
+&lt;ul&gt;
+&lt;li&gt;It is a type that you cannot name, which means any two impl Trait occurrences represents different types. A proved RFC proposed to allow using it in a type alias statements so it maybe aliased.
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;impl Trait&lt;/code&gt;은 익명의 유형입니다. 이름을 지정할 수 없는 유형이므로 두 번의 impl Trait 발생은 서로 다른 유형을 나타냅니다. 증명된 RFC는 앨리어싱될 수 있도록 유형 가명 문에 사용할 수 있도록 제안했습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In argument position, impl Trait allows the caller pass on any single type that implements Trait. In the return position, impl Trait allows the callee returns any single type that implements Trait. In any case, this type cannot be referred to in any further contexts, and it is always the value creator to pick up a type.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;인수 위치에서 &lt;code&gt;impl Trait&lt;/code&gt;은 발신자가 Trait을 구현하는 모든 단일 유형을 전달할 수 있도록 허용합니다. 반환 위치에서 &lt;code&gt;impl Trait&lt;/code&gt;은 발신자가 Trait을 구현하는 모든 단일 유형을 반환할 수 있도록 허용합니다. 어쨌든 이 유형은 더 이상의 맥락에서 참조할 수 없으며, 유형을 선택하는 것은 항상 가치 생성자입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;rfc 34511문서 참고 &amp;amp; 같이보면 좋은글&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;https://github.com/rust-lang/rust/issues/34511&lt;/li&gt;
+&lt;li&gt;2071-impl-trait-existential-types.md(Existential Types)
+&lt;ul&gt;
+&lt;li&gt;Existential types in Rust(03 July, 2018)
+&lt;ul&gt;
+&lt;li&gt;https://varkor.github.io/blog/2018/07/03/existential-types-in-rust.html&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;https://github.com/rust-lang/rfcs/blob/master/text/2071-impl-trait-existential-types.md&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;dyn-trait-syntax
+&lt;ul&gt;
+&lt;li&gt;https://github.com/rust-lang/rfcs/blob/master/text/2113-dyn-trait-syntax.md&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;RPIT (return-position impl Trait) and APIT (argument-position impl Trait)&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;https://varkor.github.io/blog/2018/07/03/existential-types-in-rust.html&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;…Which means we now have a distinction between the two.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Though argument-position and return-position impl Trait are both forms of existential quantification,
+&lt;ul&gt;
+&lt;li&gt;they’re over different scopes: APIT is tightly-bound,&lt;/li&gt;
+&lt;li&gt;whereas RPIT is bound at the level of the whole function.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;...이는 이제 두 가지를 구분할 수 있다는 것을 의미합니다. 인수 위치와 반환 위치는 모두 실존적 정량화의 한 형태이지만, 서로 다른 범위에 걸쳐 있습니다&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;APIT은 긴밀하게 결합되어 있는 반면,&lt;/li&gt;
+&lt;li&gt;RPIT는 전체 함수의 수준에서 결합되어 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;하스켈에서 나오는 Existential Type 개념&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;https://wiki.haskell.org/Existential_type&lt;/li&gt;
 &lt;/ul&gt;
 </content:encoded></item><item><title>260106_trait_02_dispatch_polymorphism</title><link>https://younghakim7.github.io/posts/260106_trait_02_dispatch_polymorphism/</link><guid isPermaLink="true">https://younghakim7.github.io/posts/260106_trait_02_dispatch_polymorphism/</guid><description>dispatch , monomorphism VS polymorphish</description><pubDate>Tue, 06 Jan 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;link&lt;/h1&gt;
 &lt;p&gt;&amp;lt;hr /&amp;gt;&lt;/p&gt;
