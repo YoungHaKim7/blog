@@ -1902,7 +1902,7 @@ let spell_checkers: Vec&amp;lt;Box&amp;lt;dyn SpellChecker&amp;gt;&amp;gt; = vec
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-</content:encoded></item><item><title>251212_box_basic</title><link>https://younghakim7.github.io/posts/251212_box_basic/</link><guid isPermaLink="true">https://younghakim7.github.io/posts/251212_box_basic/</guid><description>rust box</description><pubDate>Tue, 06 Jan 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Box를 써야하는 이유&lt;/h1&gt;
+</content:encoded></item><item><title>251212_box_basic</title><link>https://younghakim7.github.io/posts/251212_box_basic/</link><guid isPermaLink="true">https://younghakim7.github.io/posts/251212_box_basic/</guid><description>rust box</description><pubDate>Fri, 12 Dec 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Box를 써야하는 이유&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Heap에 들어가서 성능저하가 발생하는 Box는 언제 써야할까?
 &lt;ul&gt;

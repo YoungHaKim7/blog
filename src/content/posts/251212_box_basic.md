@@ -1,6 +1,6 @@
 ---
 title: 251212_box_basic
-published: 2026-01-06
+published: 2025-12-12
 description: 'rust box'
 image: ''
 tags: [rust]
