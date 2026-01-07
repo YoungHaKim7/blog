@@ -56,17 +56,17 @@ export const profileConfig: ProfileConfig = {
   bio: 'Strader+Econometrics+polyglot +天命主宰(운명의 지배자)',
   links: [
     {
-      name: 'Twitter',
-      icon: 'fa6-brands:twitter',       // Visit https://icones.js.org/ for icon codes
+      name: 'Youtube',
+      icon: 'fa6-brands:youtube',       // Visit https://icones.js.org/ for icon codes
                                         // You will need to install the corresponding icon set if it's not already included
                                         // `pnpm add @iconify-json/<icon-set-name>`
-      url: 'https://twitter.com',
+      url: 'https://www.youtube.com/@GlobalYoung7',
     },
-    {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
-    },
+    // {
+    //   name: 'Steam',
+    //   icon: 'fa6-brands:steam',
+    //   url: 'https://store.steampowered.com',
+    // },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
