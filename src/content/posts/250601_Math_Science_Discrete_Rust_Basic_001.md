@@ -3,7 +3,7 @@ title: 250601_Math_Science_Discrete_Rust_Basic_001
 published: 2025-06-01
 description: 'rust Math, Science, Discrete'
 image: ''
-tags: [rust]
+tags: [rust, math, discrete, physics, science]
 category: 'rust'
 draft: false 
 lang: ''

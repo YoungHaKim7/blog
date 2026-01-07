@@ -3,7 +3,7 @@ title: 260107_traits03_debug_display
 published: 2026-01-07
 description: 'rust std Traits(Debug, Display)'
 image: ''
-tags: [rust]
+tags: [rust, traits]
 category: 'rust'
 draft: false 
 lang: ''

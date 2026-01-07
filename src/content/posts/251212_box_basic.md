@@ -3,7 +3,7 @@ title: 251212_box_basic
 published: 2025-12-12
 description: 'rust box'
 image: ''
-tags: [rust]
+tags: [rust, box, heap]
 category: 'rust'
 draft: false 
 lang: ''
