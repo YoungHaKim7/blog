@@ -20,8 +20,8 @@ lang: ''
 
 - 물리학 역사
   - [물리학의 발전 지도(The map of physics)_33 | 석군 seokkun](https://youtu.be/h6_dj8VIoN0?si=e_2DpjYRvhl9lwyH)
-  - [KAIST김갑진 교수의 고전 물리학과 현대 물리학(양자역학까지 통합본으로 정리](../11_2D_3D_Game_Engine_Algorithm#양자역학은-여기에-정리-중)
-    - [고전물리는(물체의 운동 2개), (전기와 자기 4개 공식) 다 설명가능 ..현대 물리는 양자역학추가하면됨.](../11_2D_3D_Game_Engine_Algorithm#고전물리의-완성-19세기말-물체의-운동-2개--전기와-자기로-이세상-설명이-다-가능함)
+  - [KAIST김갑진 교수의 고전 물리학과 현대 물리학(양자역학까지 통합본으로 정리](#양자역학은-여기에-정리-중)
+    - [고전물리는(물체의 운동 2개), (전기와 자기 4개 공식) 다 설명가능 ..현대 물리는 양자역학추가하면됨.](#고전물리의-완성-19세기말-물체의-운동-2개--전기와-자기로-이세상-설명이-다-가능함)
 - 물리학 기초
   - [아인슈타인이 바라본 전기력 ⚡️ 과 자기력 🧲 | 석군 seokkun](https://youtu.be/4bJzl21eN5Y?si=-a0lC8iyI4s9bJ5d)
 
@@ -110,6 +110,39 @@ lang: ''
 # 양자역학은 여기에 정리 중.[|🔝|](#link)
 
 - https://github.com/YoungHaKim7/silq_project
+
+<hr>
+
+- 7hr짜리 통합본(설 특집 풀버전) 김갑진 교수의 물리학 시리즈 (고전역학, 전자기학, 양자역학) [KAIST 김갑진 교수]
+  - https://youtu.be/q4NEhgLC8lA?si=B86so_F_DchQrDBt
+
+<hr>
+
+- 고전역학 1편, 과학이란 무엇인가? (KAIST 김갑진 교수의 물리학 특강 1/8) | 안될과학 Unrealscience
+  - https://youtu.be/s4xTAYAYqSA?si=lVUDQ0sVsaaAs0VD
+
+- 중력과 시간이란 무엇인가? 고전역학 2편 (KAIST 김갑진 교수의 물리학 특강 2/8) | 안될과학 Unrealscience
+  - https://youtu.be/icNXbHm-fVA?si=3RiDyouAGDn5ngI8
+
+- 에너지란 무엇인가? 고전역학 3편 (KAIST 김갑진 교수의 물리학 특강 3/8) | 안될과학 Unrealscience
+  - https://youtu.be/j6GpJdmwtoY?si=FwVFbkxt8Fs6WkXi
+
+- 전기와 자기는 어떻게 발견되었나? 전자기학 1편 (KAIST 김갑진 교수의 물리학 특강 4/8) | 안될과학 Unrealscience
+  - https://youtu.be/UfzT5pGKujc?si=8cFqJGVfsBa6zpv6
+
+- 맥스웰 방정식의 의미! 전자기학 2편 (KAIST 김갑진 교수의 물리학 특강 5/8) | 안될과학 Unrealscience
+
+  - https://youtu.be/OTF-oP7io_M?si=ungrjP_BujG9BE-n
+
+- 빛은 입자인가 파동인가? 양자역학 1편! (KAIST 김갑진 교수의 물리학 특강 6/8) | 안될과학 Unrealscience
+  - https://youtu.be/RglES21LdxE?si=JW6gKYca97QIZvM6
+
+- 입자의 스핀과 불확정성의 원리란? 양자역학 2편! (KAIST 김갑진 교수의 물리학 특강 7/8) | 안될과학 Unrealscience
+  - https://youtu.be/As2tGiGwjl4?si=KyJxHliSSOQioqja
+
+- 양자컴퓨터란 무엇인가? 양자역학 3편! (KAIST 김갑진 교수의 물리학 특강 8/8) | 안될과학 Unrealscience
+  - https://youtu.be/gjp9301in0U?si=3RDEvy26mChsOa0P
+
 
 <hr>
 
