@@ -63,6 +63,11 @@ export const profileConfig: ProfileConfig = {
       url: 'https://www.youtube.com/@GlobalYoung7',
     },
     {
+      name: 'Steam',
+      icon: 'fa6-brands:steam',
+      url: 'https://store.steampowered.com',
+    },
+    {
       name: 'GitHub',
       icon: 'fa6-brands:github',
       url: 'https://github.com/YoungHaKim7',
