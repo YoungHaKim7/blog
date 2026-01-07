@@ -62,11 +62,6 @@ export const profileConfig: ProfileConfig = {
                                         // `pnpm add @iconify-json/<icon-set-name>`
       url: 'https://www.youtube.com/@GlobalYoung7',
     },
-    // {
-    //   name: 'Steam',
-    //   icon: 'fa6-brands:steam',
-    //   url: 'https://store.steampowered.com',
-    // },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
