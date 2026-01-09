@@ -22,6 +22,10 @@ lang: ''
 
 - [(67hr) Crusted Interpreter: The Whole Typed Affair | David Beazley](https://youtu.be/Rou26TpUG0Y?si=fym-TlOCpyHxr-p_)
 
+- https://www.craftinginterpreters.com/
+
+- https://github.com/munificent/craftinginterpreters
+
 # 우선 C로 작성[|🔝|](#link)
 
 - [C code ex)](https://github.com/YoungHaKim7/blog_code_polyglot/tree/main/C_Lang/001_Crusted_Interpreter_in_Rust_David_Beazley/001_chapter001/a01_interpreter)
