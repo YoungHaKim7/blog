@@ -24,6 +24,8 @@ lang: ''
 
 # 우선 C로 작성[|🔝|](#link)
 
+- [C code ex)](https://github.com/YoungHaKim7/blog_code_polyglot/tree/main/C_Lang/001_Crusted_Interpreter_in_Rust_David_Beazley/001_chapter001/a01_interpreter)
+
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -153,7 +155,7 @@ int main(void) {
 
 # 러스트로 코드를 변환해 보자.[|🔝|](#link)
 
-[rust code](https://github.com/YoungHaKim7/blog_code_polyglot/tree/main/Rust_Lang/001_Crusted_Interpreter_in_Rust_David_Beazley/chapter001/b01_interpreter_start)
+- [rust code](https://github.com/YoungHaKim7/blog_code_polyglot/tree/main/Rust_Lang/001_Crusted_Interpreter_in_Rust_David_Beazley/chapter001/b01_interpreter_start)
 
 ```rs
 #![allow(non_camel_case_types)]
