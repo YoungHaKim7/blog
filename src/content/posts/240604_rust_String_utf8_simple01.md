@@ -1,7 +1,7 @@
 ---
 title: 240604_rust_String_utf8_simple01
 published: 2024-06-04
-description: 'Rust의 문자열 처리Vector_u8, utf8'
+description: 'Most of the character string processing in the Rust language is treated as a vector, and the type is treated as u8.'
 image: ''
 tags: [rust, String, utf8, utf16]
 category: 'rust'
