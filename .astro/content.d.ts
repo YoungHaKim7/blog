@@ -158,9 +158,11 @@ declare module 'astro:content' {
 }>;
 "spec": Record<string, {
   id: string;
-  body?: string;
+  render(): Render[".md"];
+  slug: string;
+  body: string;
   collection: "spec";
-  data: any;
+  data: InferEntrySchema<"spec">;
   rendered?: RenderedContent;
   filePath?: string;
 }>;
