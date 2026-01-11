@@ -3,7 +3,7 @@ title: 260110_001FP_Functional_Programming
 published: 2026-01-10
 description: '001 러스트 개발자가 되기 위한 Functional Programming 기초 필수 지식'
 image: ''
-tags: [rust, haskell, FP, Funtional]
+tags: [rust, haskell, FP, Functional]
 category: 'haskell'
 draft: false 
 lang: ''
