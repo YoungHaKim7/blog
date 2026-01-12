@@ -3,7 +3,7 @@ title: 260107_traits04_clone_copy
 published: 2026-01-07
 description: 'Clone, Copy Traits'
 image: ''
-tags: [rust, traits]
+tags: [rust, traits, std]
 category: 'rust'
 draft: false 
 lang: ''

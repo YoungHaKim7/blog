@@ -3,7 +3,7 @@ title: 260106_trait_02_dispatch_polymorphism
 published: 2026-01-06
 description: 'dispatch , monomorphism VS polymorphish'
 image: ''
-tags: [rust, traits]
+tags: [rust, traits, std]
 category: 'rust'
 draft: false 
 lang: ''
