@@ -1,10 +1,10 @@
 ---
 title: 240503_rust_haskell_playground
 published: 2024-05-03
-description: ''
+description: 'Rust Playground & Haskell Playground'
 image: ''
-tags: []
-category: ''
+tags: [rust, haskell, doc]
+category: 'haskell'
 draft: false 
 lang: ''
 ---
