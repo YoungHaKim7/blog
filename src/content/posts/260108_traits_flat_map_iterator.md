@@ -3,7 +3,7 @@ title: 260108_traits_flat_map_iterator
 published: 2026-01-08
 description: 'Rust traits.Iterator) Let_s learn more about flat_map'
 image: ''
-tags: [rust, traits, iterator, flat_map]
+tags: [rust, traits, iterator, flat_map, std]
 category: 'rust'
 draft: false 
 lang: ''

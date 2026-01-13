@@ -3,7 +3,7 @@ title: 260108_traits05_iterator_reduce_fold
 published: 2026-01-08
 description: 'traits의 Iterator 기능 중 fold와 reduce를 알아보자 & Iterator 활용'
 image: ''
-tags: [rust, traits, std]
+tags: [rust, traits, std, iterator]
 category: 'rust'
 draft: false 
 lang: ''
