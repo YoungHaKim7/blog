@@ -3,7 +3,7 @@ title: 260111_Associated_Types_Pros_Cons
 published: 2026-01-11
 description: 'What are the benefits of using Rust Associated types?'
 image: ''
-tags: [rust, trait]
+tags: [rust, traits]
 category: 'rust'
 draft: false 
 lang: ''
