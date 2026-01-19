@@ -4,7 +4,7 @@ published: 2026-01-10
 description: 'Haskell array && Rust array + map+fileter+zip / 002 러스트 개발자가 되기 위한 Functional Programming 기초 필수 지식 '
 image: ''
 tags: [rust, std, haskell, FP, Functional]
-category: 'haskell'
+category: 'z_haskell'
 draft: false 
 lang: ''
 ---

@@ -4,7 +4,7 @@ published: 2024-05-03
 description: 'Rust Playground & Haskell Playground'
 image: ''
 tags: [rust, haskell, doc]
-category: 'haskell'
+category: 'z_haskell'
 draft: false 
 lang: ''
 ---
