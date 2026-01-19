@@ -10,6 +10,7 @@ lang: ''
 ---
 
 # link
+- [Optimization adventures: making a parallel Rust workload 10x faster with (or without) Rayon rust perf NOVEMBER 18, 2024 by GUILLAUME ENDIGNOUX](https://gendignoux.com/blog/2024/11/18/rust-rayon-optimized.html)
 
 <hr />
 
