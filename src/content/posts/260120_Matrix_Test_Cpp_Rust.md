@@ -16,6 +16,17 @@ lang: ''
 
 # 극한의 러스트 최적화 코드(안되면 되게 만드는 코드 ㅋㅋ)[|🔝|](#link)
 
+- `Cargo.toml` 추가해 준다.(극한의 최적화)
+
+```toml
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+```
+
+- `main.rs`
+
 ```rs
 use std::time::Instant;
 
