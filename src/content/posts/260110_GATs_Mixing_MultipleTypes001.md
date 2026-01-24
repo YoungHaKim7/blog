@@ -743,7 +743,8 @@ fn main() {
 
 # 같이 보면 좋은 자료들.
 
-- [APIT VS RPIT (traits)구분하기](../260111_APIT_RPIT_trait/)
+- [APIT VS RPIT (traits)구분하기](../260111_apit_rpit_trait/)
+- [traits reduce VS fold 차이점 구별하기](../260108_traits05_iterator_reduce_fold/)
 
 - easy rust 시리즈
   - [easy rust | 한글판 모아보기Easy Rust Korean / Rust in a Month of Lunches 한국어판 | mithradates](https://youtube.com/playlist?list=PLfllocyHVgsSJf1zO6k6o3SX2mbZjAqYE&si=W8KuizJ5a1bzUfCw)
