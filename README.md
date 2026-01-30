@@ -2,6 +2,8 @@
 
 ![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=YoungHaKim7.visitor-badge&format=true)
 
+- [A badge generator service to count visitors of your markdown file. Fork From:jwenjian/visitor-badge](https://github.com/hehuapei/visitor-badge)
+
 # 🍥Fuwari
 
 A static blog template built with [Astro](https://astro.build).
