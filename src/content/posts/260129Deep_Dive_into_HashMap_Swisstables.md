@@ -29,6 +29,20 @@ lang: ''
 - [absl::flat_hash_map(`raw_hash_set.h`)](https://github.com/abseil/abseil-cpp/blob/master/absl/container/internal/raw_hash_set.h)
 - [F14 HashMap](https://github.com/facebook/folly/blob/main/folly/container/F14.md)
 
+# Hyrum's Law[|🔝|](#link)
+- With a sufficient number of users of an API,
+- it does not matter what you promise in the contract,
+- all observable behaviors of your system
+- will be depended on by somebody.
+  - Hyrum Wright
+- 하이럼의 법칙
+- API 사용자 수가 충분하면,
+- 계약서에서 약속한 내용은 중요하지 않습니다,
+- 시스템의 모든 관찰 가능한 동작
+- 누군가가 의지할 것입니다.
+  - 하이럼 라이트
+- 출처 : https://youtu.be/ncHmEUmJZf4?si=JKmbaoF9YcIb8arQ&t=324
+
 <hr />
 
 # Rust의 HashMap 깊게 파들어가기[|🔝|](#link)
