@@ -1029,7 +1029,8 @@ fn main() {
 # 원본자료[|🔝|](#link)
 
 - **Repository**: https://github.com/thetinygoat/miso
-- **Reddit Post**: "Miso: A swiss table implementation from scratch in rust"
+- **Reddit Post**: ["Miso: A swiss table implementation from scratch in rust"](https://www.reddit.com/r/rust/comments/1n4q4vb/miso_a_swiss_table_implementation_from_scratch_in/)
+
 
 ### Original Author's Note[|🔝|](#link)
 
