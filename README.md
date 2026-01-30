@@ -1,3 +1,7 @@
+# hello
+
+![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=YoungHaKim7.visitor-badge&format=true)
+
 # 🍥Fuwari
 
 A static blog template built with [Astro](https://astro.build).
