@@ -586,13 +586,13 @@ fn find_in_group(
 ```
 
 - ⚠️ Important
-- Encountering 1EMPTY1 means:
+- Encountering `EMPTY` means:
 
 > the key does not exist anywhere further
 
 - This is the heart of open addressing.
 - ⚠️ 중요
-- 1EMPT1을 만난다는 것은 다음을 의미합니다:
+- `EMPTY`을 만난다는 것은 다음을 의미합니다:
 
 > 키는 더 이상 존재하지 않습니다
 
