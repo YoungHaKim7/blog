@@ -23,6 +23,9 @@ lang: ''
 
 # C++ Swisstables설명자료[|🔝|](#link)
 - [171027) CppCon 2017: Matt Kulukundis “Designing a Fast, Efficient, Cache-friendly Hash Table, Step by Step”](https://youtu.be/ncHmEUmJZf4?si=cvaR7cQqEvhJTWwV)
+  - 1. 삽입(Insert)(매우 중요)
+  - 2. 찾기(find)(매우 중요)
+
 
 ## References[|🔝|](#link)
 - [SwissTable Design(abseil.io)](https://abseil.io/about/design/swisstables)
