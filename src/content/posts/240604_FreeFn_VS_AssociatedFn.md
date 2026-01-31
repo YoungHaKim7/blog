@@ -23,3 +23,6 @@ lang: ''
 |Use Case|	Often used for static utility functions, operations where no single data "owner" is clear, or generic functions.|	Used when the function's logic is tightly coupled to a specific data structure.|
 
 
+# 같이 보면 좋은 글
+
+[ `.`과 `::` 차이점 | asar blog](https://blog.asta.rs/posts/rust/2/)
