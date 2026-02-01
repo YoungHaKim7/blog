@@ -1,6 +1,6 @@
 ---
 title: 240604_FreeFn_VS_AssociatedFn
-published: 2024-06-304
+published: 2024-06-04
 description: 'Free Functions vs. Associated Functions (Methods)'
 image: ''
 tags: [rust, std, functions]
