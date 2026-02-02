@@ -3,7 +3,7 @@ title: 260131_implementing_LFU_Cache_Least_Frequently_Used
 published: 2026-01-31
 description: '(C++ & Rust) How to implement a Least Frequently Used (LFU) cache?'
 image: ''
-tags: [rust, optimization, LFU]
+tags: [rust, optimization, cpp,LFU]
 category: 'optimization'
 draft: false 
 lang: ''
