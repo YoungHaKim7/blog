@@ -4,7 +4,7 @@ published: 2026-01-08
 description: '(67hr) Crusted Interpreter: The Whole Typed Affair | David Beazley'
 image: ''
 tags: [rust, compiler, c]
-category: 'rust'
+category: 'rust_Compiler'
 draft: false 
 lang: ''
 ---
