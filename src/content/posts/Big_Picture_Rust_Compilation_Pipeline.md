@@ -11,6 +11,8 @@ lang: ''
 
 # link
 
+- [An abstract syntax tree (AST) Wiki용어 정리](https://en.wikipedia.org/wiki/Abstract_syntax_tree)
+
 <hr />
 
 # Big Picture: Rust Compilation Pipeline
