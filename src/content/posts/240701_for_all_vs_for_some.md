@@ -10,6 +10,9 @@ lang: ''
 ---
 
 # link
+- [Rem(remainder) trait(The remainder operator %.)](https://doc.rust-lang.org/stable/std/ops/trait.Rem.html)
+
+<hr />
 
 # 1. The core idea (logic symbols)[|🔝|](#link)
 
