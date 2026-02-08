@@ -12,7 +12,10 @@ lang: ''
 # link
 - 수학용어 잘 정리
   - https://en.wikipedia.org/wiki/Glossary_of_mathematical_symbols
+- [sin, cos, tan 1분만에 외우기(youtube 영상 정승제)](https://youtube.com/shorts/WjNfYjKC6vY?si=gjIYIgzNkBgcb92J)
+
 - [삼각측량법(Triangulation) | Wiki](https://ko.wikipedia.org/wiki/삼각측량법)
+
 - [Rust Code로 훈련하기](#rust-code로-훈련하기)
 
 - 기초부터 하나씩
@@ -273,6 +276,7 @@ distance ≈ 87.9 m
   - Radar
 
 # Rust Code로 훈련하기[|🔝|](#link)
+
 - [rust code ](https://github.com/YoungHaKim7/blog_code_polyglot/tree/main/Rust_Lang/011_Math_Science_Rust/Math/001_sin_cos_tan_etc/a01_sin_cos_tan)
 
 ```rs
