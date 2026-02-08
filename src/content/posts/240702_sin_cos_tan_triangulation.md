@@ -13,6 +13,7 @@ lang: ''
 - 수학용어 잘 정리
   - https://en.wikipedia.org/wiki/Glossary_of_mathematical_symbols
 - [sin, cos, tan 1분만에 외우기(youtube 영상 정승제)](https://youtube.com/shorts/WjNfYjKC6vY?si=gjIYIgzNkBgcb92J)
+  - [Trigonometric_functions | wiki](https://en.wikipedia.org/wiki/Trigonometric_functions)
 
 - [삼각측량법(Triangulation) | Wiki](https://ko.wikipedia.org/wiki/삼각측량법)
 
@@ -73,6 +74,32 @@ sin(θ) = opposite / hypotenuse
 cos(θ) = adjacent / hypotenuse
 tan(θ) = opposite / adjacent
 ```
+
+# sin(θ)
+
+$$
+sin\theta = \frac{opposite}{hypotenuse}
+$$
+
+# cos(θ)
+
+$$
+cos\theta = \frac{adjacent}{hypotenuse}
+$$
+
+# tan(θ)
+
+$$
+tan\theta = \frac{opposite}{adjacent}
+$$
+
+![Image](https://github.com/user-attachments/assets/3e7e400a-2e96-477d-bc92-0ba6ef61926c)
+
+<img src="https://github.com/user-attachments/assets/4c406094-b9d2-4b2a-b0c4-538a80aaa392">
+
+![Image](https://github.com/user-attachments/assets/92f7f8a3-0c66-47e9-be82-5fa0eddc8894)
+
+- https://en.wikipedia.org/wiki/Trigonometric_functions
 
 - Memory trick
 
