@@ -286,11 +286,6 @@ adjacent = 50 m
 - Key idea
   - Using law of sines:
 
-```txt
-
-```
-
-
 # distance to island from A =
 
 $$
