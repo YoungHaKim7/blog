@@ -93,13 +93,24 @@ $$
 tan\theta = \frac{opposite}{adjacent}
 $$
 
+<p align="center">
+<img width="326" height="353" alt="Image" src="https://github.com/user-attachments/assets/8377bc96-eb2d-42bc-bdcc-0d71c6a7a759" />
+</p>
+
 ![Image](https://github.com/user-attachments/assets/3e7e400a-2e96-477d-bc92-0ba6ef61926c)
 
 <img src="https://github.com/user-attachments/assets/4c406094-b9d2-4b2a-b0c4-538a80aaa392">
 
+
 ![Image](https://github.com/user-attachments/assets/92f7f8a3-0c66-47e9-be82-5fa0eddc8894)
 
+
+
+<img width="324" height="524" alt="Image" src="https://github.com/user-attachments/assets/18763c6a-e4b2-4d5d-80a8-1e8429ba34cb" />
+
 - https://en.wikipedia.org/wiki/Trigonometric_functions
+
+<hr />
 
 - Memory trick
 
