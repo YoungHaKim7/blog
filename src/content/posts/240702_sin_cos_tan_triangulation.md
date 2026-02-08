@@ -293,9 +293,9 @@ adjacent = 50 m
 
 # distance to island from A =
 
-$$\frac{100 \times \sin(\theta_2)}{\sin\left(180^\circ - \theta_1 - \theta_2\right)} $$
-
-
+$$
+\frac{100 \times \sin(\theta_2)}{\sin\left(180^\circ - \theta_1 - \theta_2\right)}
+$$
 
 - Calculation
 
