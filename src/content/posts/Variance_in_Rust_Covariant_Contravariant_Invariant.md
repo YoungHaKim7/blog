@@ -20,6 +20,8 @@ lang: ''
 - 한글로 잘 정리
   - https://yoo11052.tistory.com/234
 
+- [(210221)Crust of Rust: Subtyping and Variance Jon Gjengset](https://youtu.be/iVYWDIW71jk?si=b3dl11_AU5hAczb_)
+
 - [Rust contravariance, Regarding the contravariance of `fn(&’a i32) -> ()`](https://users.rust-lang.org/t/rust-contravariance-regarding-the-contravariance-of-fn-a-i32/124379)
 
 - [(그림으로 이해)CLI lifetime substitution visualization(Covariant vs Contravariant vs Invariant)]()
