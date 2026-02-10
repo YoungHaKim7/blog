@@ -17,6 +17,27 @@ lang: ''
 
 # array와 Vec를 메모리를 찍어보며 구성을 예측해보자[|🔝|](#link)
 
+## 벡터 인덱스별 메모리 주소 조회해 보기
+
+```rs
+fn main() {
+    let my_vec = vec![1, 2, 3, 4, 5];
+
+    for (i, val) in my_vec.iter().enumerate() {
+        println!("index [{}], = {} , mem = {:p}", i, val, val)
+    }
+}
+```
+
+- result
+
+```bash
+index [0], = 1 , mem = 0xa9f0009a0
+index [1], = 2 , mem = 0xa9f0009a4
+index [2], = 3 , mem = 0xa9f0009a8
+index [3], = 4 , mem = 0xa9f0009ac
+index [4], = 5 , mem = 0xa9f0009b0
+```
 
 # Debug the memory with Rust vector and create an example of how it works.
 - Below is a hands-on, “debug-the-memory” explanation of Vec<T> in Rust, with real code, pointer addresses, and CLI-style diagrams so you can see how it works.
