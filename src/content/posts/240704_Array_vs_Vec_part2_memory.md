@@ -207,6 +207,9 @@ push  3 | len =  4, cap =  4, ptr = 0x600003f90000
 push  4 | len =  5, cap =  8, ptr = 0x600003f98000  <-- moved!
 ```
 
+> [!WARNING]
+> moved를 재현하려고 했으나 실패 좀 더 검증이 필요함! ChatGPT는 반만 믿자.!
+
 
 # 5. Reallocation visualized
 - Before growth (cap = 2)
