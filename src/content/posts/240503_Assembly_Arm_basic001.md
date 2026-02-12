@@ -3,7 +3,7 @@ title: 240503_Assembly_Arm_basic001
 published: 2024-05-03
 description: 'ARM 어셈블리 가이드(ARM Assembly Guide)'
 image: ''
-tags: []
+tags: [arm, assembly]
 category: 'rust_Assembly_Arm'
 draft: false 
 lang: ''
