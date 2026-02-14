@@ -3,7 +3,7 @@ title: 260213_What_s_New_in_Rust_1_93_0
 published: 2026-02-13
 description: 'Rust 1.93.0 released(Jan. 22, 2026)'
 image: ''
-tags: []
+tags: [rust, release]
 category: 'rust_Releases_Notes'
 draft: false 
 lang: ''
