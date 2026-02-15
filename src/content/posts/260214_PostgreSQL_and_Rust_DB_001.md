@@ -29,6 +29,8 @@ lang: ''
     - [(251015)개발자의 99%는 PostgreSQL을 이해하지 못합니다 | The Coding Gopher](https://youtu.be/P8rrhZTPEAQ?si=0t73WF025xGQ5Uan)
   - [다른거 PostgreSQL Tutorial Full Course 2022 | Derek Banas](https://youtu.be/85pG_pDkITY?si=sag9Z_H8wr_xC-_r)
   - [(251010)(11hr) Harvard CS50’s Intro to Databases with SQL – Full University Course | freeCodeCamp.org](https://youtu.be/WXk7yDqsKxs?si=9hF0sfvHTMtLIj8x)
+  - SQL 강의
+  - [(250327)SQL Full Course for Beginners (30 Hours) – From Zero to Hero Data with Baraa](https://youtu.be/SSKVgrwhzus?si=DG4TrWno0jQ17Ab1)
 
 - 내가 정리한 PostgreSQL 커멘드Command 모음
   - https://github.com/YoungHaKim7/postgresql_gy
