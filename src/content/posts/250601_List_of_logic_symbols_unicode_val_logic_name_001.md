@@ -4,7 +4,7 @@ published: 2025-06-01
 description: 'In logic, a set of symbols is commonly used to express logical representation. The following table lists many common symbols, together with their name, how they should be read out loud, and the related field of mathematics. Additionally, the subsequent columns contains an informal explanation, a short example, the Unicode location, the name for use in HTML documents, and the LaTeX symbol.'
 image: ''
 tags: [rust, math]
-category: 'rust'
+category: 'rust_Math_Science'
 draft: false 
 lang: ''
 ---

@@ -4,7 +4,7 @@ published: 2025-06-01
 description: 'rust Math, Science, Discrete'
 image: ''
 tags: [rust, math, discrete, physics, science]
-category: 'rust'
+category: 'rust_Math_Science'
 draft: false 
 lang: ''
 ---
