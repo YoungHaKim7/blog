@@ -92,7 +92,7 @@ $$
 
 - $L(θ)$ → how bad the model is
 
-- Gradient Descent minimizes  $\mathcal{L}
+- Gradient Descent minimizes  $\mathcal{L}$
 
 Update rule:
 
