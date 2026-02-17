@@ -3,7 +3,7 @@ title: 260214_PostgreSQL_and_Rust_DB_001
 published: 2026-02-14
 description: 'PostgreSQL also known as Postgres, is a free and open-source relational database management system (RDBMS) emphasizing extensibility and SQL compliance. PostgreSQL features transactions with atomicity, consistency, isolation, durability (ACID) properties, automatically updatable views, materialized views, triggers, foreign keys, and stored procedures. PostgreSQL은 확장성과 SQL 준수를 강조하는 무료 오픈 소스 관계형 데이터베이스 관리 시스템(RDBMS)입니다. PostgreSQL은 원자성, 일관성, 격리성, 내구성(ASID) 속성, 자동으로 업데이트 가능한 보기, 구체화된 보기, 트리거, 외부 키 및 저장 프로시저를 갖춘 트랜잭션을 특징으로 합니다.'
 image: ''
-tags: [rust, db]
+tags: [rust, db, postgresql]
 category: 'rust_DB'
 draft: false 
 lang: ''

@@ -3,7 +3,7 @@ title: 260215_Put_csv_file_in_PostgreSQL_DB
 published: 2026-02-15
 description: 'Put csv file in DB'
 image: ''
-tags: [rust, db]
+tags: [rust, db, postgresql]
 category: 'rust_DB'
 draft: false 
 lang: ''

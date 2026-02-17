@@ -3,7 +3,7 @@ title: 260215_PostgresSQL_backup_export_import
 published: 2026-02-15
 description: 'extract files to PostgreSQL DB files'
 image: ''
-tags: [rust, db]
+tags: [rust, db, postgresql]
 category: 'rust_DB'
 draft: false 
 lang: ''

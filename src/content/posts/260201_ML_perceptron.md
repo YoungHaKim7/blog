@@ -13,6 +13,8 @@ lang: ''
 
 - [github_Rust Algorithms(All Algorithms implemented in Rust)](https://github.com/TheAlgorithms/Rust)
 
+- [24분25초에 Perceptron나옴((250304)MIT Introduction to Deep Learning | 6.S191)](https://youtu.be/alfdI7S6wCY?si=D_zDHUNU192s1OPd&t=1464)
+
 <hr />
 
 # (ML)Rust Perceptron algorithm in machine learning
