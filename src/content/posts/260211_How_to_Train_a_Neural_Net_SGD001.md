@@ -1,7 +1,7 @@
 ---
 title: 260211_How_to_Train_a_Neural_Net_SGD001
 published: 2026-02-11
-description: ''
+description: '1. Gradient descent) How to Train a Neural Net MIT OpenCourseWare'
 image: ''
 tags: [rust, ML, MachineLearning]
 category: 'rust_ML_MachineLearning'
@@ -29,7 +29,9 @@ lang: ''
 
 # Gradient Descent
 
-$$ \theta^* = argmin\sum_{i=1}^{N}L(f_\theta(x^{i}),y^{i})$$
+$$
+\theta^* = argmin\sum_{i=1}^{N}\mathcal{L}(f_\theta(x^{i}),y^{i})
+$$
 
 ## The core Gradient Descent update rule is:
 
@@ -75,4 +77,45 @@ fn main() {
     println!("\nFinal theta ≈ {}", theta);
 }
 ```
+
+
+# 📌 What It Means in Gradient Descent
+$$
+\mathcal{L}
+$$
+
+- represents the Loss function.
+
+- So in ML:
+
+- $ \theta$ → model parameters
+
+- $L(θ)$ → how bad the model is
+
+- Gradient Descent minimizes  $\mathcal{L}
+
+Update rule:
+
+$$
+\theta_{t+1} = \theta_t - \eta \nabla \mathcal{L}(\theta_t)
+$$
+
+# 📌 Why Use Script L?
+
+- In machine learning:
+  - $J(θ)$ → often used in textbooks
+  - $\mathcal{L}(θ)$ → common in research papers
+
+- They usually mean the same thing: objective / loss function.
+
+# 📌 Other Similar L-like Symbols
+
+| Symbol          | LaTeX         | Meaning            |
+| --------------- | ------------- | ------------------ |
+| $ \mathcal{L} $ | `\mathcal{L}` | Loss function      |
+| $ L $           | `L`           | Normal letter      |
+| $ \ell $        | `\ell`        | Lowercase script l |
+| $ \lambda $     | `\lambda`     | Lambda             |
+
+
 
