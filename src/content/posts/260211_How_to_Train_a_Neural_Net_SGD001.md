@@ -51,12 +51,85 @@ $$
 - $J(\theta_t)$ : objective (loss) function
 
 
+# CLI Visualization
+
+- Imagine the curve:
+
+```txt
+Cost
+ ^
+ |                *
+ |            *
+ |        *
+ |     *
+ |   *
+ | *
+ +-----------------------> theta
+    0    1    2    3
+```
+- Each iteration moves right toward the minimum.
+
+# 📌 Intuition
+
+- Gradient Descent moves parameters in the opposite direction of the gradient, because:
+  - The gradient points toward the steepest increase
+  - We want to go toward the minimum
+  - So we subtract it
+
+## 🔎 1D Case (Single Variable)
+
+- If the function is:
+
+$$
+J(\theta)
+$$
+
+- Then the update becomes:
+
+$$
+\theta_{t+1} = \theta_t - \eta\frac{d}{d\theta}J(\theta_t)
+$$
+
+## 🔎 Multi-Dimensional Case 
+
+- if:
+
+$$
+\theta =
+\begin{bmatrix}
+\theta_1 \\
+\theta_2 \\
+\vdots \\
+\theta_n
+\end{bmatrix}
+$$
+
+- Then:
+
+$$
+\nabla J(\theta) =
+\begin{bmatrix}
+\frac{\partial J}{\partial \theta_1} \\
+\frac{\partial J}{\partial \theta_2} \\
+\vdots \\
+\frac{\partial J}{\partial \theta_n}
+\end{bmatrix}
+$$
+
+- Each parameter updates independently:
+
+$$
+\theta_i := \theta_i - \eta \frac{\partial J}{\partial \theta_i}
+$$
+
+
+
 # Rust Implementation
 
 ```rs
 fn main() {
-    let mut theta = 0.0;       // initial guess
-    let learning_rate = 0.1;   // η
+    let mut theta: f64 = 0.0;       // initial guess
+    let learning_rate: f64 = 0.1;   // η
     let iterations = 50;
 
     for i in 0..iterations {
@@ -77,6 +150,14 @@ fn main() {
     println!("\nFinal theta ≈ {}", theta);
 }
 ```
+
+# Why This Works
+
+- Because:
+  - If θ < 3 → gradient is negative → subtracting negative increases θ
+  - If θ > 3 → gradient is positive → subtracting decreases θ
+
+- It automatically moves toward equilibrium.
 
 
 # 📌 What It Means in Gradient Descent
