@@ -11,6 +11,7 @@ lang: ''
 
 # link
 - [11분 3초에 나옴) How a Single Bit Inside Your Processor Shields Your Operating System's Integrity | Core Dumped](https://youtu.be/H4SDPLiUnv4?si=GcMvP8HT4PHSIkIS&t=663)
+  - [Kernel mode vs User Mode설명 간단히)Why Applications Are Operating-System Specific | Core Dumped](https://youtu.be/eP_P4KOjwhs?si=xJPZJfTiCfkjiJ-3)
 
 
 # Summary
