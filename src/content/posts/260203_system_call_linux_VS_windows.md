@@ -49,7 +49,7 @@ fundamentally connect user-space programs to the operating system kernel in both
 # System Call List for Windows, Mac, and Linux 
 - https://gist.github.com/lancejpollard/9ee20de29a2e8672ebcea2590ee44d4f
 
-- Darwin(Kerel)
+- Darwin(Kernel)
   - https://github.com/apple/darwin-xnu/blob/main/bsd/kern/syscalls.master
 
 <hr />
