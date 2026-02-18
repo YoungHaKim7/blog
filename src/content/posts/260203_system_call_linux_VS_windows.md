@@ -18,6 +18,31 @@ lang: ''
 
 - System calls
 fundamentally connect user-space programs to the operating system kernel in both Linux and Windows, allowing programs to request privileged services like file access or process creation. However, their implementation and public exposure differ significantly between the two systems.
+- 기본적으로 사용자 공간 프로그램을 리눅스와 윈도우의 운영 체제 커널에 연결하여 프로그램이 파일 접근이나 프로세스 생성과 같은 권한 있는 서비스를 요청할 수 있도록 합니다. 그러나 두 시스템 간에 구현 방식과 공개 노출은 크게 다릅니다.
+  - System Call시스템 콜은 유저 프로그램이 커널 모드에서만 가능한 기능을 안전하게 사용할 수 있도록 도와주는 인터페이스이다.
+    - 나무wiki설명
+      - https://namu.wiki/w/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%BD%9C
+
+# Wiki한글(시스템 호출System Call)
+- https://ko.wikipedia.org/wiki/%EC%8B%9C%EC%8A%A4%ED%85%9C_%ED%98%B8%EC%B6%9C
+- 영문 https://en.wikipedia.org/wiki/System_call
+
+- 시스템 호출이란 프로그래밍 언어에서 지원하지 않는 기능에 대하여 운영 체제의 루틴을 호출하여 이용하는 것을 말한다. 시스템 호출의 세 가지 기능은 다음과 같다.
+
+  - 사용자 모드에 있는 응용 프로그램이 커널의 기능을 사용할 수 있도록 한다.
+  - 시스템 호출을 하면 사용자 모드에서 커널 모드로 바뀐다.
+  - 커널에서 시스템 호출을 처리하면 커널 모드에서 사용자 모드로 돌아가 작업을 계속한다.
+
+- 시스템 호출의 유형
+  - 프로세스 제어(process control)
+  - 파일 조작(file manipulation)
+  - 장치 관리(device management)
+  - 정보 유지(information maintenance)
+  - 통신(communication)
+
+<img width="960" height="720" alt="Image" src="https://github.com/user-attachments/assets/034359d7-5566-44a6-af51-39bc47ea7e80" />
+
+- https://en.wikipedia.org/wiki/System_call#/media/File:Linux_kernel_interfaces.svg
 
 # Key Differences Summary
 
