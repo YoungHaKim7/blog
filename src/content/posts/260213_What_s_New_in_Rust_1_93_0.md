@@ -99,6 +99,7 @@ fn main() {
 
 # `from_raw_parts`
 - [`from_raw_parts`: String::from_raw_parts](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.from_raw_parts)
+  - [rust 1.00 기능 여기에 다시 정리 `from_raw_parts`](../150515_from_raw_parts/)
 
 - Creates a new String from a pointer, a length and a capacity.
 
