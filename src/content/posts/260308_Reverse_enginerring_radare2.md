@@ -3,7 +3,7 @@ title: 260308_Reverse_enginerring_radare2
 published: 2026-03-08
 description: '`strace` & `radare2`(사용법) UNIX-like reverse engineering framework and command-line toolset '
 image: ''
-tags: [rust, reverse, radare2, strace]
+tags: [rust, reverse, radare2, strace, c]
 category: 'rust_Reverse_Engineering'
 draft: false 
 lang: ''
