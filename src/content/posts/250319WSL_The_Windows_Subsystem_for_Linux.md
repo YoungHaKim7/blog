@@ -30,7 +30,7 @@ lang: ''
 - 번역 원본 https://blogs.windows.com/windowsdeveloper/2025/05/19/the-windows-subsystem-for-linux-is-now-open-source/
   - 파파고로 번역하였음
 
-- 오늘 저희는 Linux용 Windows 서브시스템의 오픈 소스 출시를 발표하게 되어 매우 기쁩니다. 이는 이를 준비하기 위한 다년간의 노력과 Microsoft/WSL 보고서에서 제기된 첫 번째 이슈인 오픈 소스가 될 수 있을까요? · Issue #1 · Microsoft/WSL.
+- 오늘 저희는 Linux용 Windows 서브시스템의 오픈 소스 출시를 발표하게 되어 매우 기쁩니다. 이는 이를 준비하기 위한 다년간의 노력과 Microsoft/WSL 보고서에서 제기된 첫 번째 이슈인 오픈 소스가 될 수 있을까요? · [Issue #1 · Microsoft/WSL.](https://github.com/microsoft/WSL/issues/1)
 
 즉, 이제 WSL을 구동하는 코드가 Microsoft/WSL의 GitHub에서 사용할 수 있으며 커뮤니티에 오픈 소스로 제공됩니다! 소스에서 WSL을 다운로드하고 빌드한 후 새로운 수정 사항과 기능을 추가하고 WSL의 활발한 개발에 참여할 수 있습니다.
 
@@ -43,7 +43,7 @@ lang: ''
 ## WSL’s code can be broken up into these main areas:
 
 - Command line executables that are the entry points to interact with WSL
-  - `wsl.exe`, `wslconfig.ex`e and `wslg.exe`
+  - `wsl.exe`, `wslconfig.exe` and `wslg.exe`
 - The WSL service that starts the WSL VM, starts distros, mounts file access shares and more
   - `wslservice.exe`
 - Linux init and daemon processes, binaries that run in Linux to provide WSL functionality
@@ -78,7 +78,7 @@ lang: ''
 - WSL의 plan9 서버 구현을 통해 Windows에 Linux 파일 공유
   - 플랜9
 
-- 각 구성 요소에 대해 자세히 알아보려면 https://wsl.dev로 이동하세요.
+- 각 구성 요소에 대해 자세히 알아보려면 [https://wsl.dev](https://wsl.dev)로 이동하세요.
 
 - 이는 이미 오픈 소스 WSL 구성 요소에 추가된 것입니다:
 
