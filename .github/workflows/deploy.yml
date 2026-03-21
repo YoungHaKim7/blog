@@ -8,6 +8,10 @@ on:
   # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
 
+# Force Node 24 for all JS actions
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 # Allow this job to clone the repo and create a page deployment
 permissions:
   contents: read
@@ -41,4 +45,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
