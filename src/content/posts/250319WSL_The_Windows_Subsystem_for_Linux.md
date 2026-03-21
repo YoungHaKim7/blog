@@ -109,6 +109,7 @@ lang: ''
 - 그 이후로 우리는 모든 사용자를 Windows와 함께 제공되던 WSL 구성 요소에서 벗어나 이 새로운 WSL 패키지로 완전히 전환하기 위해 WSL을 계속 개선했습니다. Windows 11 24H2는 사용자를 "내장된" WSL 패키지에서 "새로운" WSL 패키지로 이동시킨 최초의 Windows 빌드였습니다. Windows 이미지에 `wsl.exe`를 유지하여 최신 패키지를 더 쉽게 다운로드할 수 있도록 했습니다.
 
 - WSL을 계속 개선하면서 결국 또 다른 이정표를 세웠습니다: WSL 2.0.0 (컴퓨터 과학에서 가장 어려운 세 가지 문제는 무엇인가요? 하나의 오류와 이름 짓기!).
+  - (What are the three hardest problems in computer science? Off by one errors and naming things!).
 
 - WSL 2.0.0은 미러링 네트워킹, DNS 터널링, 세션 0 지원, 프록시 지원, 방화벽 지원 등과 같은 주요 개선 사항을 도입했습니다.
 
