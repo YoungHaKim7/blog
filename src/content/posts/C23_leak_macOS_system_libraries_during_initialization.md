@@ -12,6 +12,7 @@ lang: ''
 # link
 
 - [sample code](https://github.com/YoungHaKim7/glibc_The_GNU_C_Library_Training/tree/main/001_study_glibc/training_c/01_String_Tsoding/a05_dont_forget_free)
+- [자료 출처 : (260320) C Strings are Terrible! | Tsoding  -  C의 String은 끔찍하다. ㅋ C String 정말 끔찍해! 자동 더빙 Tsoding](https://youtu.be/y8PLpDgZc0E?si=vw2XopqAfMrteXDh)
 
 # macOS leak 조심하자.  무시해도 되는거구만.
 
