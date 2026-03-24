@@ -1,7 +1,7 @@
 ---
 title: 240630_LaTeX_Summary
 published: 2024-06-30
-description: 'LaTeX 기본기'
+description: 'LaTeX 기본기 - LaTeX is a typesetting system for creating professional-looking documents, commonly used in academia and scientific publishing, with a focus on content rather than appearance'
 image: ''
 tags: [rust, math, LaTeX]
 category: 'rust_Math_Science'
@@ -10,6 +10,11 @@ lang: ''
 ---
 
 # link
+
+- [(230306) LaTeX – Full Tutorial for Beginners | freeCodeCamp.org](https://youtu.be/ydOTMQC7np0?si=-u6xPk6ePCc8BIat)
+  - Learn LaTeX in this full course for beginners. LaTeX is a typesetting system for creating professional-looking documents, commonly used in academia and scientific publishing, with a focus on content rather than appearance
+
+<hr />
 
 # ChatGPT에 물어봐서 커닝하기
 
