@@ -3,7 +3,7 @@ title: C23_leak_macOS_system_libraries_during_initialization
 published: 2026-03-23
 description: 'Summary: Your code has **no memory leaks**. You_re correctly calling `free(s)` after `strdup()`. The 120 bytes reported are from macOS system libraries during initialization, which are suppressed with the `.lsan.supp` file. The real issue in your output is the typo: \"Hello, Worl\" - this is because line 8 (`s[n - 1] = 0;`) removes the last character \"d\" since there\"s no newline in the original string.'
 image: ''
-tags: [c, macOS, leak, fsanitize, debugging]
+tags: [c, macOS, leak, fsanitize, debugging, sanitizer]
 category: 'z_c'
 draft: false 
 lang: ''
