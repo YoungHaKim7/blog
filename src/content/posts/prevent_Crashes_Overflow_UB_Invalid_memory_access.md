@@ -11,6 +11,11 @@ lang: ''
 
 # link
 
+- [C Strings are Terrible! | Tsoding | C의 String은 끔찍하다. ㅋ C String 정말 끔찍해! 자동 더빙 | Tsoding](https://youtu.be/y8PLpDgZc0E?si=vw2XopqAfMrteXDh)
+
+- [StringView(C, Rust 코드 비교해서 정리)](../stringview/)
+
+
 <hr />
 
 # These patterns prevent crashes, overflow, UB, or invalid memory access.
