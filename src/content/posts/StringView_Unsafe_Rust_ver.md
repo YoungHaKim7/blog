@@ -24,7 +24,7 @@ lang: ''
 - [Pointer comparison (important)](#-pointer-comparison-important)
 - [Why Rust feels harder than C](#-why-rust-feels-harder-than-c)
 
-- (code 라이별로 자세히 분석)Rust forces you to choose safety level.
+- (Unsafe Rust code 라인별로 자세히 분석, Analyze each code line in detail.)Rust forces you to choose safety level.
   - [Your example shows the key difference](#-your-example-shows-the-key-difference)
 
 <hr />
