@@ -12,6 +12,7 @@ lang: ''
 # link
 
 - [rust string append](../250103_string_append/)
+- [free fn(string format_push_str)](../250103_string_format_push_str_concat_join_push/)
 
 <hr />
 
