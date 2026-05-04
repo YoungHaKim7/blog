@@ -1,10 +1,10 @@
 ---
 title: CS_Computer_Science_basic001
-published: 2024-03-01
+published: 2024-03-30
 description: 'CS Basic(Command-line/ Debugging/ Memory) & Algorithms & Web Socket이론 익히기'
 image: ''
-tags: [CS, ComputerScience]
-category: 'z_CS_Computer_Science'
+tags: [CS, Computer, Science]
+category: 'zCS_ComputerScience'
 draft: false 
 lang: ''
 ---
@@ -21,7 +21,9 @@ lang: ''
 - Beej's Guide to Network Programming(web socket이론 익히기)
   - https://beej.us/bio/
 
-- 알게 된 유튜브 자료 출처
-  - [Extremely Underrated Programming Resources | Shade of Coder과소평가된 프로그래밍 자료들](https://youtu.be/u_SJcg673fA?si=63YKozGl9rdi7xR4)
 
 <hr />
+
+# 알게 된 유튜브 자료 출처
+- [Extremely Underrated Programming Resources | Shade of Coder과소평가된 프로그래밍 자료들](https://youtu.be/u_SJcg673fA?si=63YKozGl9rdi7xR4)
+
