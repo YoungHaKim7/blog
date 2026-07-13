@@ -124,3 +124,13 @@ ESC [31mHello ESC [0m
 - 여기서 `ESC`는 ASCII 값 27(0x1B) 입니다.
 
 - 참고로, 질문에 나온 표는 **ASCII 제어 문자(ANSI X3.4)**뿐만 아니라 EBCDIC 및 IBM 장비의 제어 코드까지 함께 실어 놓은 표입니다. 그래서 `PN`, `PF`, `DS`, `TM`, `LC`, `UC`처럼 순수 ASCII에는 없는 항목들도 포함되어 있습니다.
+
+# BEL (0x07) asks the terminal to beep/flash
+
+- https://asciify.dev/ascii/control/bell
+
+```c
+fputs("Build finished\a\n", stdout);
+// BEL (0x07) asks the terminal to beep/flash
+fflush(stdout);
+```
