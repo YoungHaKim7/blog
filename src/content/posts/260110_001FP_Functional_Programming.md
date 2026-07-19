@@ -12,6 +12,7 @@ lang: ''
 # link
 - [FP FP프로그래밍의 특징 7가지](#fp프로그래밍의-특징-7가지)
 - [haskell하스켈 코드 (add, squre, max , isEven, abs 예시)](#haskell)
+- [(270719)핵심 정리 1줄로 이해하기FP_Functional_Programming_Basic001](../260719_fp_functional_programming_basic001/)
 
 # Summary
 

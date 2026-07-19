@@ -11,6 +11,8 @@ lang: ''
 
 # link
 
+- [초반에 정리한 blog글_FP FP프로그래밍의 특징 7가지(Haskell 코드로 이해)](../260110_001fp_functional_programming/)
+
 - Blog정리중(260717)
   - https://younghakim7.github.io/blog/posts/260110_001fp_functional_programming/
 
