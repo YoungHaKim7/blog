@@ -1,7 +1,7 @@
 ---
 title: 240401_Harvard_Architechture_Neuromorphic_Von_Neumann
 published: 2024-04-01
-description: ''
+description: 'Von_Neumann_architecture VS Harvard Architecture) 하버드 구조 VS 폰 노이만 구조 차이점'
 image: ''
 tags: [CS, Computer, Science, Architecture]
 category: 'zCS_ComputerScience'
