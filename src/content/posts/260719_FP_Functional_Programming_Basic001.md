@@ -4,7 +4,7 @@ published: 2026-07-19
 description: 'Functional programming is a style of programming that emphasizes the evaluation of expressions, rather than execution of commands. '
 image: ''
 tags: [FP, FunctionalProgramming]
-category: 'zFP_FunctinalProgramming'
+category: 'zFP_FunctionalProgramming'
 draft: false 
 lang: ''
 ---
