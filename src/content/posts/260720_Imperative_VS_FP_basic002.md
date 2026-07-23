@@ -11,7 +11,7 @@ lang: ''
 
 # link
 
-- [(📊 Detailed Comparison Table)Comprehensive Analysis: Imperative vs Functional Programming](#comprehensive-analysis-imperative-vs-functional-programming)
+- [(📊 Detailed Comparison Table(C++23으로 비교)_Comprehensive Analysis: Imperative vs Functional Programming](#comprehensive-analysis-imperative-vs-functional-programming)
 
 - [📝 Code Quality Metrics & 결론](#-code-quality-metrics)
   - 뭐가 좋다가 아니라 언제나 상황에 맞게 잘 섞어 써야한다.
@@ -78,7 +78,7 @@ lang: ''
 
 # Comprehensive Analysis: Imperative vs Functional Programming[|🔝|](#link)
 
-## 📊 Detailed Comparison Table
+## 📊 Detailed Comparison Table(C++23으로 비교)
 
 | **Aspect** | **Imperative** | **Functional** | **Key Differences** |
 |------------|----------------------|--------------------------|-------------------|
