@@ -37,6 +37,9 @@ $ CARGO_PROFILE_RELEASE_DEBUG=true cargo flamegraph --release --bin a01_rust_mul
 Running perf script [11s]:  writing flamegraph to "flamegraph.svg"
 ```
 
+- [cargo flamegraph test code, `Cargo.toml`에 설정 추가해 줘야함.](https://github.com/YoungHaKim7/YouTubeContents_GlobalYoung/tree/main/260725_FP_Functional_Programming_basic001_FPvsImperative/001_1BRC_TheOneBillionRowChallenge/Rust_Lang/a01_rust_multi_thread_1brc)
+
+
 - hyperfine 분석
 
 ```bash
@@ -240,6 +243,7 @@ hyperfine \
 ```
 
 ### **Profile where time is spent:**[|🔝|](#link)
+
 ```bash
 # Install flamegraph
 cargo install flamegraph
@@ -249,6 +253,8 @@ cargo flamegraph --release --bin rust_multi_thread_1brc
 
 # This creates flamegraph.svg showing exactly where CPU time goes
 ```
+
+- [cargo flamegraph test code, `Cargo.toml`에 설정 추가해 줘야함.](https://github.com/YoungHaKim7/YouTubeContents_GlobalYoung/tree/main/260725_FP_Functional_Programming_basic001_FPvsImperative/001_1BRC_TheOneBillionRowChallenge/Rust_Lang/a01_rust_multi_thread_1brc)
 
 ---
 
