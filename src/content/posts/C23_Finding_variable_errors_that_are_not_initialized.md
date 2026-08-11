@@ -3,7 +3,7 @@ title: C23_Finding_variable_errors_that_are_not_initialized
 published: 2026-08-11
 description: 'clang&gcc로 초기화되지 않는 변수 에러 찾기 & Finding variable errors that are not initialized with clang & gcc'
 image: ''
-tags: [c, c23, clang, gcc]
+tags: [c, c23, clang, gcc, cmake]
 category: 'z_c'
 draft: false 
 lang: ''
