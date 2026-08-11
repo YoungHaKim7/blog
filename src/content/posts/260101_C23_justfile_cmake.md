@@ -25,9 +25,9 @@ lang: ''
 - `CMakeLists.txt`
   - Cmake Version 4.0 이상에서 쓸것을 권장.
 
-- 최종수정(251004)
+- 최종수정(260811)
 
-```txt
+```cmake
 cmake_minimum_required(VERSION 4.0)
 
 get_filename_component(ProjectId ${CMAKE_CURRENT_SOURCE_DIR} NAME)
@@ -192,7 +192,7 @@ source := src_dir+"/main.c"
 target := target_dir+"/"+project_name
 
 # Optimize (O2(RelWithDebInfo), O3(Release))
-ldflags_optimize :=  "-std=c23 -Wall -O2 -pedantic -pthread -pedantic-errors -lm -Wextra -ggdb"
+ldflags_optimize := "-std=c23 -Wall -O2 -pedantic -pthread -pedantic-errors -lm -Wextra -ggdb"
 
 # Common flags
 ldflags_common := "-std=c23 -pedantic -pthread -pedantic-errors -lm -Wall -Wextra -ggdb -Werror"
@@ -230,8 +230,8 @@ rd2:
 	just fm
 	rm -rf {{target_dir}}
 	mkdir -p {{target_dir}}
-	{{gcc_which}} {{ldflags_gcc_debug}} -o ./{{target_dir}}/{{project_name}} {{source}}
-	{{target}}
+	{{gcc_which}} {{ldflags_gcc_debug}} -o ./{{target_dir}}/{{project_name}} ./{{source}}
+	./{{target}}
 
 # (C)clang compile(Optimization/LinuxOS/ macOS)
 ro:
@@ -491,6 +491,8 @@ init:
 	echo 'IndentGotoLabels: true' >> .clang-format
 	echo 'IndentPPDirectives: None' >> .clang-format
 	echo 'IndentExternBlock: NoIndent' >> .clang-format
+	echo "" >> .clang-format
+	echo 'ColumnLimit: 80' >> .clang-format
 	echo 'cmake_minimum_required(VERSION 4.0)' >> CMakeLists.txt
 	echo '' >> CMakeLists.txt
 	echo 'set(CMAKE_C_STANDARD 23)' >> CMakeLists.txt
@@ -548,7 +550,73 @@ init:
 	echo '    RUNTIME_OUTPUT_DIRECTORY' >> CMakeLists.txt
 	echo '       "${CMAKE_BINARY_DIR}/$<LOWER_CASE:$<CONFIG>>"' >> CMakeLists.txt
 	echo ')' >> CMakeLists.txt
-
+	echo '# General(macOS)' >> .gitignore
+	echo '.DS_Store' >> .gitignore
+	echo '' >> .gitignore
+	echo '# build files' >> .gitignore
+	echo 'debug' >> .gitignore
+	echo 'justfile' >> .gitignore
+	echo 'target' >> .gitignore
+	echo 'build' >> .gitignore
+	echo '# clangd' >> .gitignore
+	echo '.cache' >> .gitignore
+	echo '' >> .gitignore
+	echo '# Prerequisites' >> .gitignore
+	echo '*.d' >> .gitignore
+	echo '' >> .gitignore
+	echo '# Object files' >> .gitignore
+	echo '*.o' >> .gitignore
+	echo '*.ko' >> .gitignore
+	echo '*.obj' >> .gitignore
+	echo '*.elf' >> .gitignore
+	echo '' >> .gitignore
+	echo '# Linker output' >> .gitignore
+	echo '*.ilk' >> .gitignore
+	echo '*.map' >> .gitignore
+	echo '*.exp' >> .gitignore
+	echo '' >> .gitignore
+	echo '# Precompiled Headers' >> .gitignore
+	echo '*.gch' >> .gitignore
+	echo '*.pch' >> .gitignore
+	echo '' >> .gitignore
+	echo '# Libraries' >> .gitignore
+	echo '*.lib' >> .gitignore
+	echo '*.a' >> .gitignore
+	echo '*.la' >> .gitignore
+	echo '*.lo' >> .gitignore
+	echo '' >> .gitignore
+	echo '# Shared objects (inc. Windows DLLs)' >> .gitignore
+	echo '*.dll' >> .gitignore
+	echo '*.so' >> .gitignore
+	echo '*.so.*' >> .gitignore
+	echo '*.dylib' >> .gitignore
+	echo '' >> .gitignore
+	echo '# Executables' >> .gitignore
+	echo '*.exe' >> .gitignore
+	echo '*.out' >> .gitignore
+	echo '*.app' >> .gitignore
+	echo '*.i*86' >> .gitignore
+	echo '*.x86_64' >> .gitignore
+	echo '*.hex' >> .gitignore
+	echo '' >> .gitignore
+	echo '# Debug files' >> .gitignore
+	echo '*.dSYM/' >> .gitignore
+	echo '*.su' >> .gitignore
+	echo '*.idb' >> .gitignore
+	echo '*.pdb' >> .gitignore
+	echo '' >> .gitignore
+	echo '# Kernel Module Compile Results' >> .gitignore
+	echo '*.mod*' >> .gitignore
+	echo '*.cmd' >> .gitignore
+	echo '.tmp_versions/' >> .gitignore
+	echo 'modules.order' >> .gitignore
+	echo 'Module.symvers' >> .gitignore
+	echo 'Mkfile.old' >> .gitignore
+	echo 'dkms.conf' >> .gitignore
+	echo '' >> .gitignore
+	echo '# debug information files' >> .gitignore
+	echo '*.dwo' >> .gitignore
+ 
 # C init(int main(int argc, char* argv[]))
 init2:
 	mkdir -p src
