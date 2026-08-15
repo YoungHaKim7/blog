@@ -9,6 +9,21 @@ draft: false
 lang: ''
 ---
 
+# link
+
+- https://www.howtovulkan.com/#device-setup
+- https://vulkan-tutorial.com/
+- SDK
+  - https://www.lunarg.com/products/vulkan-sdk/
+
+- One stop solution for all Vulkan samples
+  - https://github.com/KhronosGroup/Vulkan-Samples
+
+- Rust)
+  - https://github.com/gfx-rs/wgpu-native
+  - 내가 정리중.
+    - https://github.com/YoungHaKim7/rust_gui_vulkan_trainning
+
 # In Vulkan code, you will often see something like:
 
 ```c
