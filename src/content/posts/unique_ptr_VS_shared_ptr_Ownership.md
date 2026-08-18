@@ -20,9 +20,12 @@ lang: ''
 - [1. A Vulkan object is basically a handle](#1-a-vulkan-object-is-basically-a-handle)
 - [2. C++ RAII fixes this](#2-c-raii-fixes-this)
 
-- [C++) Now introduce `std::unique_ptr`](#6-now-introduce-stdunique_ptr)
-- [C++) `std::shared_ptr` vs Rust `Rc`](#17-shared_ptr-vs-rc)
-- [C++) `std::shared_ptr` vs Rust `Arc`](#18-shared_ptr-vs-arc)
+<hr />
+
+- C++ vs Rust
+  - [C++) Now introduce `std::unique_ptr`](#6-now-introduce-stdunique_ptr)
+  - [C++) `std::shared_ptr` vs Rust `Rc`](#17-shared_ptr-vs-rc)
+  - [C++) `std::shared_ptr` vs Rust `Arc`](#18-shared_ptr-vs-arc)
 
 <hr />
 
