@@ -12,7 +12,10 @@ lang: ''
 # link
 
 - 여기에 총정리
-  - https://github.com/YoungHaKim7/rust_gui_vulkan_trainning/edit/main/002_Vulkan_API_training/drawio_api_study/README.md
+  - https://github.com/YoungHaKim7/rust_gui_vulkan_trainning/edit/main/002_Vulkan_API_training/drawio_api_study/
+  - https://github.com/YoungHaKim7/rust_gui_vulkan_trainning/tree/main/002_Vulkan_API_training
+- Vulkan VS OpenGL
+  - https://github.com/YoungHaKim7/rust_gui_vulkan_trainning#vulkan-vs-opengl
 
 # 그림 출처 
 
