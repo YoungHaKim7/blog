@@ -103,4 +103,4 @@ fundamentally connect user-space programs to the operating system kernel in both
 
 # 같은 보면 좋은글
 
-- [Windows에서 GUI프로그램을 Windows커널과 연결해서 작동원리 알아보기](../260204_Impl_GUI_in_Windows_Kernel)
+- [Windows에서 GUI프로그램을 Windows커널과 연결해서 작동원리 알아보기](../260204_impl_gui_in_windows_kernel/)
