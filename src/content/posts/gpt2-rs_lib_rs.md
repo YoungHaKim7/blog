@@ -19,6 +19,8 @@ lang: ''
 
 # 코드 구성
 
+- https://github.com/YoungHaKim7/rust_gpt-2_impl/blob/main/docs/lib.rs.md
+
 
 ```bash
 
