@@ -1,13 +1,26 @@
 ---
 title: gpt2-rs_attention_layers
 published: 2026-08-21
-description: ''
+description: 'attention layers 기능 분석'
 image: ''
-tags: []
-category: ''
+tags: [ML, rust, MachineLearning]
+category: 'rust_ML_MachineLearning'
 draft: false 
 lang: ''
 ---
+
+# link
+
+- [llm.c | C언어로 구현한 chatgpt2 오리지날 코드 | github.com/karpathy/llm.c](https://github.com/karpathy/llm.c)
+
+- [rust로 구현한 예시 코드](https://github.com/YoungHaKim7/rust_gpt-2_impl)
+
+<hr />
+
+# 코드 구성
+
+- https://github.com/YoungHaKim7/rust_gpt-2_impl/blob/main/docs/lib.rs.md
+
 
 ```rs
 use rayon::prelude::*;
