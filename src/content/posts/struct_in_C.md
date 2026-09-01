@@ -11,6 +11,8 @@ lang: ''
 
 # link
 
+- [code sample](https://github.com/YoungHaKim7/C_Programming_Kernigan_and_Ritchie/tree/main/001_C_Training/003_C_struct)
+
 <hr />
 
 Sure! Here is a simple and complete example showing how to use **`struct` in C**.
