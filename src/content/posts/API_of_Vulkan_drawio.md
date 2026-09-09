@@ -38,3 +38,31 @@ lang: ''
 - https://vulkan.lunarg.com/doc/view/1.4.321.0/mac/antora/tutorial/latest/03_Drawing_a_triangle/02_Graphics_pipeline_basics/00_Introduction.html
 
 <img width="403" height="643" alt="Image" src="https://github.com/user-attachments/assets/106becb5-d168-4f5d-8280-f3eb95ba0ed8" />
+
+# Compute Shader
+
+## Introduction
+
+- In this bonus chapter, we’ll take a look at compute shaders. Up until now, all previous chapters dealt with the traditional graphics part of the Vulkan pipeline. But unlike older APIs like OpenGL, compute shader support in Vulkan is mandatory. This means that you can use compute shaders on every Vulkan implementation available, no matter if it’s a high-end desktop GPU or a low-powered embedded device.
+
+- This opens up the world of general purpose computing on graphics processor units (GPGPU), no matter where your application is running. GPGPU means that you can do general computations on your GPU, something that has traditionally been a domain of CPUs. But with GPUs having become more and more powerful and more flexible, many workloads that would require the general purpose capabilities of a CPU can now be done on the GPU in realtime.
+  - 이로 인해 애플리케이션이 어디서 실행되든 그래픽 처리 장치(GPGPU)에서 범용 컴퓨팅이 가능해집니다. GPGPU는 전통적으로 CPU의 영역이었던 일반 계산을 GPU에서 수행할 수 있다는 뜻입니다. 하지만 GPU가 점점 더 강력하고 유연해지면서, CPU의 범용 기능이 필요한 많은 작업을 이제는 GPU에서 실시간으로 처리할 수 있게 되었습니다.
+
+- A few examples of where the compute capabilities of a GPU can be used are image manipulation, visibility testing, post-processing, advanced lighting calculations, animations, physics, (e.g., for a particle system) and much more. And it’s even possible to use compute for non-visual computational only work that does not require any graphics output, e.g., number crunching or AI related things. This is called "headless compute".
+
+
+### Advantages
+
+- Doing computationally expensive calculations on the GPU has several advantages. The most obvious one is offloading work from the CPU. Another one is not requiring moving data between the CPU’s main memory and the GPU’s memory. All the data can stay on the GPU without having to wait for slow transfers from the main memory.
+
+- Aside from these, GPUs are heavily parallelized with some of them having tens of thousands of small compute units. This often makes them a better fit for highly parallel workflows than a CPU with a few large compute units.
+The Vulkan pipeline
+
+
+# The Vulkan pipeline
+- It’s important to know that compute is completely separated from the graphics part of the pipeline. This is visible in the following block diagram of the Vulkan pipeline from the official specification:
+
+- Compute Shader
+  - https://docs.vulkan.org/tutorial/latest/11_Compute_Shader.html
+
+<img width="1131" height="580" alt="Image" src="https://github.com/user-attachments/assets/fb197936-52e9-4e88-bbe9-637e31f524ae" />
