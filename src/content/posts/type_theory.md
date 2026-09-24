@@ -1,6 +1,6 @@
 ---
 title: type_theory
-published: 2026-09-25
+published: 2026-09-02
 description: 'In mathematical logic, and theoretical computer science, type theory is the study of formal systems that classify expressions or mathematical objects by their types. '
 image: ''
 tags: [FP, type, inference]
@@ -20,6 +20,5 @@ lang: ''
   - https://byhow.me/thoughts/type-theory
 
 # Type Inference in Rust and C++
-Well, at least it's not Swift.
-written by Mond
-- https://herecomesthemoon.net/2025/01/type-inference-in-rust-and-cpp/
+- Well, at least it's not Swift. | written by Mond
+  - https://herecomesthemoon.net/2025/01/type-inference-in-rust-and-cpp/
