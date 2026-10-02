@@ -3,7 +3,7 @@ title: prevent_Crashes_Overflow_UB_Invalid_memory_access
 published: 2026-03-20
 description: 'These patterns prevent crashes, overflow, UB, or invalid memory access.'
 image: ''
-tags: [rust, kernel]
+tags: [rust, kernel, clamp]
 category: 'rust_Kernel'
 draft: false 
 lang: ''
@@ -11,9 +11,11 @@ lang: ''
 
 # link
 
-- [C Strings are Terrible! | Tsoding | C의 String은 끔찍하다. ㅋ C String 정말 끔찍해! 자동 더빙 | Tsoding](https://youtu.be/y8PLpDgZc0E?si=vw2XopqAfMrteXDh)
+- [(외부링크) C Strings are Terrible! | Tsoding | C의 String은 끔찍하다. ㅋ C String 정말 끔찍해! 자동 더빙 | Tsoding](https://youtu.be/y8PLpDgZc0E?si=vw2XopqAfMrteXDh)
 
 - [StringView(C, Rust 코드 비교해서 정리)](../stringview/)
+
+- [clamp사용법 002 다시 정리(러스트 코드)](../clamp_basic002/)
 
 
 <hr />
