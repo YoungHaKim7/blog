@@ -11,7 +11,12 @@ lang: ''
 
 
 # link
+
+- 
+
 - [예시코드x86_64) 부팅하기 위한 러스트코드 기본](https://github.com/YoungHaKim7/rust_os_x86_64/tree/main/001_nographic/a03_divide_conquer_code_final)
+
+- [page tables알아보기](../x86_64_page_tables/)
 
 <hr />
 

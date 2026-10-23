@@ -9,6 +9,12 @@ draft: false
 lang: ''
 ---
 
+# link
+
+- [boot & linker알아보기](../x86_64_initial_boot_sequence/)
+
+<hr />
+
 # 1. Why does an operating system need page tables?
 
 - Let's build the idea from the beginning using x86-64 and Rust. The most important concept is this:
