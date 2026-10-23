@@ -145,7 +145,8 @@ This is an illustrative script, not a replacement for your actual file.
 
 Why start at 1 MiB? It is a common conventional physical load address for x86 kernels. The low-memory region contains firmware data structures and other historically important areas, so kernels often avoid placing their main image there. The exact address is a bootloader and linker design decision, not a universal requirement.
 
-Important: an ELF virtual address, ELF physical load address, and actual runtime virtual address are not necessarily identical. A higher-half kernel, for example, may be loaded into low physical RAM but linked to execute at a much higher virtual address.
+- Important: an ELF virtual address, ELF physical load address, and actual runtime virtual address are not necessarily identical. A higher-half kernel, for example, may be loaded into low physical RAM but linked to execute at a much higher virtual address.
+
 ## 3. How ELF Sections Map into Memory
 
 The linker arranges the kernel's sections and records their addresses in the ELF file. The bootloader then uses the ELF program headers to determine which segments to load into memory.
@@ -360,7 +361,7 @@ This makes early execution easier because code and data loaded into low physical
 
 For example, mapping the first 1 GiB with 2 MiB pages requires:
 
-\\[ \frac{1\ \text{GiB}}{2\ \text{MiB}} = 512 \\]
+$$ \frac{1\ \text{GiB}}{2\ \text{MiB}} = 512 $$
 
 That is 512 page-directory entries. Each entry is 8 bytes, so those entries consume 4096 bytes—the size of one page directory.
 
@@ -470,9 +471,9 @@ This tells us that your observed boot path is already doing several jobs that a 
 
 For example, the logged virtual entry point can be expressed as:
 
-\\[ \text{entry} = \text{virtual offset} + 0x4470 \\]
+$$ \text{entry} = \text{virtual offset} + 0x4470 $$
 
-\\[ 0x10000000000 + 0x4470 = 0x10000004470 \\]
+$$ 0x10000000000 + 0x4470 = 0x10000004470 $$
 
 This is consistent with the logged entry address.
 
@@ -482,7 +483,7 @@ Notice that this differs from a classic Multiboot assembly stub that starts in 3
 
 Run these commands in your project root:
 
-```
+```bash
 cd /home/gygy/my_projects/Rust_Lang/rust_os_x86_64/chapter01/a02_hello_world
 
 # 1. Inspect the linker script and startup assembly.
@@ -775,7 +776,7 @@ The exact responsibilities depend on the boot protocol. Some bootloaders establi
 
 Use these commands to inspect the kernel's virtual addresses and loadable segments:
 
-```
+```bash
 # ELF entry point and file metadata
 readelf -h target/x86_64-unknown-none/debug/a02_hello_world
 

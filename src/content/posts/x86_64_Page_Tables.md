@@ -134,7 +134,7 @@ For example, a virtual page starting at `0x4000` might map to a physical page st
 | `0x4100`        | `0x9100`         |
 | `0x4FFF`        | `0x9FFF`         |
 
-The low 12 bits are the offset within a 4 KiB page, because \\(4096 = 2^{12}\\).
+The low 12 bits are the offset within a 4 KiB page, because $$(4096 = 2^{12})$$.
 
 The page-table lookup translates the page number; the CPU keeps the page offset unchanged.
 
@@ -334,7 +334,7 @@ Page Directory at 0x3000
 
 A 2 MiB page contains 512 standard 4 KiB pages:
 
-\\[ 512 \times 4096 = 2{,}097{,}152\text{ bytes} \\]
+$$ 512 \times 4096 = 2{,}097{,}152\text{ bytes} $$
 
 This can reduce the number of page-table entries and improve translation efficiency for large mappings.
 
