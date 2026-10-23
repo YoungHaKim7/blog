@@ -69,5 +69,9 @@ All commands are run from the root of the project, from a terminal:
 | `pnpm astro ...`                    | Run CLI commands like `astro add`, `astro check` |
 | `pnpm astro --help`                 | Get help using the Astro CLI                     |
 
+- Update available! 12.14.0 → 12.15.0.
+  - Changelog: https://pnpm.io/v/12.15.0
+  - To update, run: `pnpm self-update`
+
 # astro 공식 문서
 - https://docs.astro.build
