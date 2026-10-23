@@ -510,7 +510,7 @@ When implementing paging in your own x86-64 kernel, the broad process is:
 5. Enable or maintain the appropriate paging and CPU mode settings.
 6. Ensure the currently executing code, stack, and required data remain mapped when switching address spaces or enabling paging.
 
-Your earlier QEMU boot log showed the bootloader reporting a new page table at physical address `0x101000`, then entering your kernel at a virtual address. That indicates the bootloader was already performing part of the paging setup. You should inspect the boot protocol and its handoff information before building a second set of page tables.
+- Your earlier QEMU boot log showed the bootloader reporting a new page table at physical address `0x101000`, then entering your kernel at a virtual address. That indicates the bootloader was already performing part of the paging setup. You should inspect the boot protocol and its handoff information before building a second set of page tables.
 
-The core idea: Level 4 selects a Level 3 table, Level 3 selects a Level 2 table, Level 2 selects a Level 1 table, and Level 1 selects a 4 KiB physical page. Large-page entries can end that walk earlier.
+- The core idea: Level 4 selects a Level 3 table, Level 3 selects a Level 2 table, Level 2 selects a Level 1 table, and Level 1 selects a 4 KiB physical page. Large-page entries can end that walk earlier.
 
