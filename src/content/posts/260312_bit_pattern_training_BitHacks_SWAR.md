@@ -3,7 +3,7 @@ title: 260312_bit_pattern_training_BitHacks_SWAR
 published: 2026-03-12
 description: '15 Legendary Bit Hacks / Real Kernel example / Why programmers group bits in 4 / Boolean Logic / Operator Truth Table 기초/ SWAR popcount algorithm (the famous 5-mask method)'
 image: ''
-tags: [rust, kernel, SWAR, BitHacks]
+tags: [rust, kernel, SWAR, bithacks]
 category: 'rust_Kernel'
 draft: false 
 lang: ''
