@@ -9,6 +9,12 @@ draft: false
 lang: ''
 ---
 
+# link
+
+- [Procedure알아보기](../procedure_generally_means/)
+
+<hr />
+
 # trap
 
 - In CPU and Operating Systems (OS), a trap is an event that causes the CPU to stop its normal instruction execution and transfer control to a special handler, usually provided by the operating system (OS kernel).
